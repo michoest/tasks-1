@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      sessionStorage.setItem('spa_redirect', location.pathname + location.search + location.hash);
+      location.replace('/');
+    </script>
+  </head>
+</html>
